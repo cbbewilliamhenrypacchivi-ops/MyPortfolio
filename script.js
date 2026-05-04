@@ -219,19 +219,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // ========================================
-    // BOTÓN VOLVER AL INICIO
-    // ========================================
-    const buttonAllPortfolio = document.querySelector('.btn-all-portfolio');
-    if (buttonAllPortfolio) {
-        buttonAllPortfolio.addEventListener('click', function(e) {
-            e.preventDefault();
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    }
+
 
     // ========================================
     // ANIMACIÓN DE CARGA INICIAL
